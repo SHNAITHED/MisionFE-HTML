@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Imperial - Pedido</title>
+</head>
+<body>
+    <h1>Pastelería Imperial</h1>
+       <br>
+       <img src="./Imagenes/Pasteleria Imperial.png" alt="Logo Pasteleria Imperial" width="400px">
+       <h2>El Deleite de la Nobleza</h2>
+       <hr>
+
+       <h2>P E D I D O S</h2>
+
+       <hr>
+
+       <form action="pedido.js">
+            <label for="Nombre">Nombre del Cliente</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+            <br>
+            <label for="telCliente">Teléfono de contacto</label><br>
+            <input type="tel" id="telCliente" name="telCliente" placeholder="5500000000"><br>
+            <br>
+            <label for="correoCliente">Correo de contacto</label><br>
+            <input type="email" id="correoCliente" name="correoCliente" placeholder="tucorreo@dominio.com"><br>
+            <br>
+
+            <p>Selecciona el(los) sabor(es) para tu pastel</p>
+            <input type="checkbox" name="tresLeches" id="tresLeches">
+            <label for="tresLeches">Tres Leches</label>
+            <input type="number" name="numTres" id="numTres" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="Fresa" id="Fresa">
+            <label for="Fresa">Fresa</label>
+            <input type="number" name="numFresa" id="numFresa" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="Chocolate" id="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+            <input type="number" name="numChoco" id="numChoco" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="Imposible" id="Imposible">
+            <label for="Imposible">Imposible</label>
+            <input type="number" name="numImpo" id="numImpo" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="Zarzamora" id="Zarzamora">
+            <label for="Zarzamora">Zarzamora</label>
+            <input type="number" name="numZar" id="numZar" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="Cajeta" id="Cajeta">
+            <label for="Cajeta">Cajeta</label>
+            <input type="number" name="numCaj" id="numCaj" placeholder="¿Cuantos Kilos?">
+            <br>
+            <input type="checkbox" name="FrutosTrop" id="FrutosTrop">
+            <label for="FrutosTrop">Frutos Tropicales</label>
+            <input type="number" name="numFT" id="numFT" placeholder="¿Cuantos Kilos?">
+            <br>
+
+            <p>¿Quieres algún adorno?</p>
+            <input type="radio" name="seleccinoar" id="si">
+            <label for="si">SI</label>
+   
+            <input type="radio" name="seleccinoar" id="no">
+            <label for="no">NO</label>
+
+            <p>Selecciona el(los) adorno(s) de tu preferencia</p>
+            <input type="checkbox" name="msjFel" id="msjFel">
+            <label for="msjFel">Mensaje de Felicitación</label>
+            <select name="felici" id="felici">
+                <option value="Chocolate">Directo en el pastel</option>
+                <option value="Listón">Listón decorativo con Mensaje</option>
+            </select>
+            <select name="Sabores" id="Sabores">
+                <option value="Chocolate">Chocolate</option>
+                <option value="Fresa">Fresa</option>
+                <option value="Zarzamora">Zarzamora</option>
+                <option value="Durazno">Durazno</option>
+            </select>
+            <br>
+            <input type="checkbox" name="Dibujo" id="Dibujo">
+            <label for="Dibujo">Dibujo Infantil</label>
+            <br>
+            <input type="checkbox" name="Figura" id="Figura">
+            <label for="Figura">Figura decorativa (Comestible)</label>
+            <br>
+            <input type="checkbox" name="velas" id="velas">
+            <label for="velas">Velas de Cumpleaños</label>
+            <select name="velas" id="velas">
+                <option value="VelaPack">Paquete de velas Simples</option>
+                <option value="VelaFig">Vela de figura decorativa</option>
+            </select></label>
+                
+           <br><br>
+           <input type="reset" value="Limpiar Pedido">
+           <br>
+           <!--<input type="submit" value="Ordenar">-->
+           
+       </form>
+       <br>
+       <button>Ordenar</button>
+       <hr>
+       <br>
+       <a href="./Pastelería Imperial - menú.html"><button>Regresar al menú</button></a>
+       <br>
+</body>
+</html>
